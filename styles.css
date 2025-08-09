@@ -28,6 +28,11 @@ header {
     z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
 }
 
+/* Agrega esta nueva regla a tu archivo CSS */
+#resumen {
+    margin-top: 300px; /* Ajusta este valor si es necesario */
+}
+
 /* Estilos del pie de página */
 footer {
     background-color: #333;
@@ -68,10 +73,6 @@ footer a:hover {
     color: #ccc;
 }
 
-/* Estilos para los párrafos justificados */
-.parrafo-justificado {
-    text-align: justify;
-}
 
 /* Estilos para los elementos de lista */
 ul {
