@@ -16,8 +16,20 @@ section {
     border-radius: 5px;
 }
 
-/* Estilos del encabezado y pie de página */
-header, footer {
+/* Estilos para el encabezado */
+header {
+    position: fixed; /* La clave para que se quede fijo */
+    top: 0; /* Lo fija en la parte superior */
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: #333; /* Color de fondo para que el contenido no se vea a través de él */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+}
+
+/* Estilos del pie de página */
+footer {
     background-color: #333;
     color: white;
     text-align: center;
