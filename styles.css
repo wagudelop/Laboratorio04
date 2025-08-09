@@ -18,8 +18,8 @@ section {
 
 /* Estilos para el encabezado */
 header {
-    position: fixed; /* La clave para que se quede fijo */
-    top: 0; /* Lo fija en la parte superior */
+    position: fixed; /* Dejar el encabezado fijo */
+    top: 0; /* Encabezado en la parte superior */
     width: 100%; /* Ocupa todo el ancho */
     background-color: #333; /* Color de fondo para que el contenido no se vea a través de él */
     color: white;
@@ -28,7 +28,6 @@ header {
     z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
 }
 
-/* Agrega esta nueva regla a tu archivo CSS */
 #resumen {
     margin-top: 300px; /* Ajusta este valor si es necesario */
 }
@@ -72,7 +71,6 @@ footer a {
 footer a:hover {
     color: #ccc;
 }
-
 
 /* Estilos para los elementos de lista */
 ul {
