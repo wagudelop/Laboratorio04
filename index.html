@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body id="inicio">
+
+    <!--1.Crear una nueva página HTML- Utilizar la etiqueta <div> para crear un contenedor principal en la página.  -->
+    <!--2.Incorporación de encabezados, párrafos, imágenes y enlaces.  -->
+    <!--3.Creación de listas y tablas para organizar información.  -->
+    <!--4.Formulario de contacto.  -->
+    <!--5.Estilización con CSS y adición de interactividad con JavaScript.  -->
+    <!--6.Publicación del sitio. -->
+
+
+    <header>
+        <img src="Wilder_Agudelo_parra.jpg" style="width: 10%" alt="FotoWilder">
+        <h1>Mi primera página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#resumen">Resumen curriculo</a></li>
+                <li><a href="#cursosytalleres">Formación acádemica</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#experiencia">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contenedorPrincipal">
+        <section id="resumen">
+            <h2>Resumen del curriculo</h2>
+            <p class="parrafo-justificado">Magíster en Administración con formación de base en Ciencia de la
+                Información, Bibliotecología y Archivística, complementada por experiencia técnica en redes,
+                programación y gestión de plataformas digitales académicas. Mi trayectoria combina el pensamiento
+                estratégico de la gestión administrativa con un profundo conocimiento del entorno bibliotecario, la
+                tecnología aplicada a la información y la formación de usuarios en entornos universitarios.<br><br>
+
+                Me especializo en la coordinación de recursos bibliográficos, bibliotecas digitales, gestión editorial
+                académica y procesos de formación en competencias informacionales, citación y uso ético de la
+                información. He liderado procesos de implementación tecnológica (OJS, DSpace, ALEPH), promoviendo la
+                visibilidad científica, la mejora de servicios y la eficiencia operativa en bibliotecas
+                universitarias.<br><br>
+
+                Mi formación complementaria en gestión de proyectos, calidad (ISO 9001/14001), propiedad intelectual y
+                tecnología aplicada a la información me permite asumir retos que integran innovación, análisis crítico y
+                enfoque al usuario. Me defino como un profesional propositivo, adaptable, orientado a resultados y
+                comprometido con el fortalecimiento institucional desde una visión colaborativa y centrada en el
+                conocimiento.<br><br>
+            </p>
+            <button onclick="mostrarMensaje('resumen')">Mostrar Mensaje</button>
+            <a href="#inicio" class="enlace-footer"><i>Volver arriba</i></a>
+
+
+        </section>
+
+        <section id="cursosytalleres">
+            <h2>Formación académica</h2>
+            <ul>
+                <li>Maestría en Administración (Universidad Nacional de Colombia, Sede Palmira, 2021)</li>
+                <li>Profesional en Ciencia de la Información, Documentación, Bibliotecología y Archivística (Universidad
+                    del Quindío, 2011)</li>
+                <li>Técnico Laboral Empresarial en Ensamble, Redes y Programación (System Plus, Palmira, 2006)</li>
+                <li>Bachiller Técnico Comercial (Instituto de Bachillerato Técnico Comercial del Valle, Palmira, 1995)
+                </li>
+            </ul>
+            <h3>Normas de Gestión y Calidad</h3>
+            <ul>
+                <li>Actualización en ISO 9001 e ISO 14001:2015.</li>
+                <li>Seminario-Taller en Formulación y Estructuración de Proyectos (Project Management Innovation).</li>
+            </ul>
+            <h3>Tecnologías de la información y Bibliotecas digitales</h3>
+            <ul>
+                <li>Taller de aplicación de RDA</li>
+                <li>AMarcación SciELO y Open Journal System (OJS).</li>
+                <li>Curso en DSpace y OJS.</li>
+                <li>Curso DSpace Biblioteca Digital.</li>
+                <li>Software ALEPH (Análisis, actualización y uso).</li>
+            </ul>
+            <h3>Gestión Editorial y Comunicación Científica</h3>
+            <ul>
+                <li>Foro sobre Revistas Científicas: Políticas, Visibilidad y Acceso Abierto</li>
+                <li>Congreso Nacional sobre Innovación y Tecnologías de la Información en el Sector Agropecuario.</li>
+                <li>Aprovechamiento del sistema de propiedad intelectual para el sector agro, SIC.</li>
+            </ul>
+            <a href="#inicio" class="enlace-footer"><i>Volver arriba</i></a>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia laboral</h2>
+            <!--Aquí va la tabla. ajuste la instrucción usando css para probar-->
+            <table class="tabla-referencias">
+                <tr>
+                    <th>Institución</th>
+                    <th>Cargo</th>
+                    <th>Función principal</th>
+                    <th>Fecha de ingreso y retiro</th>
+                </tr>
+                <tr>
+                    <td>Universidad Nacional de Colombia, Sede Palmira</td>
+                    <td>Líder de área de recursos bibliográficos</td>
+                    <td>Adquisición y procesamiento de material bibliográfico</td>
+                    <td>Febrero 2012 - actualmente</td>
+                </tr>
+                <tr>
+                    <td>Centro Internacional de Agricultura Tropical, CIAT</td>
+                    <td>Bibliográfo</td>
+                    <td>Actualización de indicadores de publicación+57 (2) 231-2246</td>
+                    <td>Mayo 2010 - Enero 2012</td>
+                </tr>
+                <tr>
+                    <td>Universidad de San Buenaventura Cali</td>
+                    <td>Coordinador de servicios y adquisiciones</td>
+                    <td>Asesor de formación y biblioteca digital</td>
+                    <td>Octubre 2008 - Abril 2010</td>
+                </tr>
+                <tr>
+                    <td>Tu Salud Coomeva</td>
+                    <td>Secretario de auditoría médica</td>
+                    <td>Gestión administrativa y soporte ofimático</td>
+                    <td>Mayo 1997 - Noviembre 1999</td>
+                </tr>
+            </table>
+            <a href="#inicio" class="enlace-footer"><i>Volver arriba</i></a>
+
+
+        </section>
+
+
+        <section id="contacto">
+            <h2>¿Necesitas asesoría en gestión bibliotecaria, tecnología o proyectos?</h2>
+            <p>Estoy aquí para ayudarte a optimizar tus procesos y alcanzar tus objetivos. Si buscas orientación en
+                gestión editorial, bibliotecas digitales o formación en competencias informacionales, no dudes en
+                contactarme.</p>
+            <p>Llena este formulario y hablemos sobre cómo puedo colaborar en tu próximo proyecto.</p>
+
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+
+                <label for="celular">Celular:</label><br>
+                <input type="tel" id="celular" name="celular" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="#inicio" class="enlace-footer">Volver arriba</a>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+
+            <a href="https://www.instagram.com/wagudelop/" target="_blank">
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/wilder-agudelo-parra-0a71a1aa/" target="_blank">
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </a>
+
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                    class="w3-hover-text-green">w3.css</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Estilos para las secciones de contenido */
+section {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos del encabezado y pie de página */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Estilos para los enlaces en el footer */
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* Tamaño más grande para los íconos */
+    margin: 0 5px; /* Espacio entre los íconos */
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+/* Estilos para los párrafos justificados */
+.parrafo-justificado {
+    text-align: justify;
+}
+
+/* Estilos para los elementos de lista */
+ul {
+    list-style-type: square;
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+/* Ajustes para los títulos */
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* === Tabla de referencias === */
+.tabla-referencias {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-referencias th,
+.tabla-referencias td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-referencias th {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/* Estilo para el enlace de "Volver arriba" */
+.enlace-footer {
+    color: rgb(53, 51, 51); /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Ajusta el tamaño de la fuente para que se vea como texto normal */
+}
+
+/* Estilo para cuando pasas el mouse por encima */
+.enlace-footer:hover {
+    color: #ccc; /* El color se vuelve gris claro al pasar el mouse, combinando con otros enlaces */
+}
